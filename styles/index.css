@@ -3,7 +3,12 @@
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links-wrapper/header__lang-links-wrapper.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_selected/header__lang-link_selected.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
