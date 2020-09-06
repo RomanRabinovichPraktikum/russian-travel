@@ -1,3 +1,12 @@
 .place__paragraph-list {
+    display: flex;
+    flex-direction: column;
+}
 
+@media screen and (max-width: 767px) {
+    .place__paragraph-list {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 48px;
+    }
 }
