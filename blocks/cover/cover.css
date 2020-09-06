@@ -1,3 +1,38 @@
 .cover {
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
 
+@media screen and (min-width: 1280px) {
+    .cover {
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: 92px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 92px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 64px;
+    }
 }
