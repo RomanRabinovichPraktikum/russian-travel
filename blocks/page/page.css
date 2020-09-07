@@ -10,26 +10,18 @@
 	-webkit-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+	padding-bottom: 24px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
 	.page {
 		padding-top: 28px;
-		padding-bottom: 24px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-	.page {
-		padding-top: 28px;
-		padding-bottom: 24px;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	.page {
 		padding-top: 16px;
-		padding-bottom: 24px;
 	}
 }
 

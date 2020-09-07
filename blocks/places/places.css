@@ -8,7 +8,6 @@
     .places {
         margin-left: 148px;
         margin-right: 148px;
-        margin-bottom: 92px;
     }
 }
 
@@ -16,10 +15,14 @@
     .places {
         margin-left: 48px;
         margin-right: 48px;
-        margin-bottom: 92px;
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .places {
+        margin-bottom: 92px;
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .places {
