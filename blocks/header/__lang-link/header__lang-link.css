@@ -5,10 +5,6 @@
     line-height: 28px;
 }
 
-.header__lang-link:last-child {
-    margin-left: 18px;
-}
-
 .header__lang-link:hover {
     text-decoration: underline;
 }
